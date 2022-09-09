@@ -12,10 +12,10 @@
 ################################** Execution and Activation **################################
 	
 	**1. Place all files in 1 folder**
-		For Example lets take as --> C:\Users\Decrypt3r\Desktop\burp\
+		For Example lets take as --> C:\Users\rakshith\Desktop\burp\
 	----------------------------------------------
 	**2.1 Run This Command for Windows in CMD Prompt.**
-		java --illegal-access=permit -Dfile.encoding=utf-8 -javaagent:"C:\Users\Decrypt3r\Desktop\burp\loader.jar" -noverify -jar "C:\Users\Decrypt3r\Desktop\burp\burpsuite_pro_v2022.1.jar"
+		java --illegal-access=permit -Dfile.encoding=utf-8 -javaagent:"C:\Users\rakshith\Desktop\burp\loader.jar" -noverify -jar "C:\Users\rakshith\Desktop\burp\burpsuite_pro_v2022.1.jar"
 	**2.2 Run this command for Linux in Terminal. Suppose Your files are in /home/kali/Desktop/burp/**
 		java --illegal-access=permit -Dfile.encoding=utf-8 -javaagent:/home/kali/Desktop/burp/loader.jar -noverify -jar /home/kali/Desktop/burp/burpsuite_pro_v2022.1.jar &
 	----------------------------------------------
@@ -30,10 +30,10 @@
 		5. Copy license response from keygen.jar and paste in BurpSuite_Pro, and next and Done
 	----------------------------------------------
 	**5.1 For Windows Follow These Steps**
-		1. Open Notepad and Paste command at 2.1 and save the file with name burp.bat in C:\Users\Decrypt3r\Desktop\burp\   Folder.
+		1. Open Notepad and Paste command at 2.1 and save the file with name burp.bat in C:\Users\rakshith\Desktop\burp\   Folder.
 		2. Open another Notepad and Paste below command and save it with burp.VBS extension in Desktop.
 			Set WshShell = CreateObject("WScript.Shell")
-			WshShell.Run chr(34) & "C:\Users\Decrypt3r/Desktop\burp\burp.bat" & Chr(34), 0
+			WshShell.Run chr(34) & "C:\Users\rakshith\Desktop\burp\burp.bat" & Chr(34), 0
 			Set WshShell = Nothing
 	**5.2 For Linux Follow these Steps**
 		1. With Sudo Permissions, Create a file with command "gedit /bin/burp"
